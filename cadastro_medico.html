@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/estilo_formulario.css"/>
+	
+	
+</head> 
+
+<style>
+body  {
+    background-image: url("fundo.jpg");
+    background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+}
+</style>	
+
+
+
+<body>
+
+<form method="post" action="cadastro_medico.php">
+    <div class="box"> 
+        <h1>Cadastro Médico</h1>
+  
+       
+
+		<label for="senha"> 
+            <span>Senha</span>
+            <input type="password" class="input_text" name="senha" />
+			
+  
+        </label>
+
+
+        <label for="nome_medico"> 
+            <span>Nome Completo</span>
+            <input type="text" class="input_text" name="nome_medico" />
+			
+        </label>
+  
+        <label for="email">
+
+            <span>Email</span>
+            <input type="email" class="input_text" name="email">
+			
+         </label>
+
+
+		  <label for="CRM"> 
+            <span>CRM</span>
+            <input type="text" class="input_text" name="CRM" onKeyPress = "CRM"/>
+  
+        </label>
+
+  
+        <label for="especialidade">
+            <span>Especialidade</span>
+            <select  class="input_text" name="especialidade"/>
+		
+	<option value="NENHUMA">Nenhuma</option>
+    <option value="ORTOPEDIA">Ortopedia</option>
+    <option value="CARDIOLOGIA">Cardiologia</option>
+	<option value="DERMATOLOGIA">Dermatologia</option>
+	<option value=" RADIOLOGIA">Radiologia</option>
+	<option value="CIRURGIA PLÁSTICA">Cirurgia Plástica</option>
+	<option value="HEMATOLOGIA">Hematologia</option>
+	<option value="ONCOLOGIA">Oncologia</option>
+    
+  </select>
+    </label>
+
+	<label> 
+            <span>Plano de Saúde</span>
+            <select  class="input_text" name="plano_de_saude" id="plano_de_saude"/>
+	<option value="Unimed">Unimed</option>
+	<option value="Amil">Amil</option>
+	<option value="Bradesco Saúde">Bradesco Saúde</option>
+	<option value="SulAmérica">SulAmérica</option>
+	<option value="Outro">Outro</option>
+    
+	</select>
+    </label>
+
+	<label> 
+            <span>Horario de Atendimento</span>
+            <select  class="input_text" name="horario" id="horario"/>
+	<option value="matutino">Matutino</option>
+	<option value="vespertino">Vespertino</option>
+	    
+	</select>
+    </label>
+
+
+             
+
+         <span>  <input type="submit" class="button" name="button" > </span>
+   
+    
+    </div>
+
+
+
+</form> 
+</body>
+</html>

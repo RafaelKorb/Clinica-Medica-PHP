@@ -1,0 +1,41 @@
+﻿@charset utf-8;
+  @import url("estilos.css"); 
+
+.header{
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 10px; 
+  line-height: 25px;
+  border-radius: 4px;
+  background-color: #00FFFF;
+}
+
+
+
+.article {
+ left:35;
+ height:20;
+position: absolute;
+
+}
+
+
+.aside {
+right: 100;
+height: 50;
+position: fixed;
+}
+
+
+
+.footer {
+   font-style: italic;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #585858;
+   color: white;
+   text-align: center;
+}

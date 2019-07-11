@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/estilo_formulario.css"/>
+
+<style>
+body  {
+    background-image: url("fundo.jpg");
+    background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+}
+</style>	
+	
+
+</head> 
+<body> 
+
+
+
+
+<form method="POST" action="login.php">
+    <div class="box"> 
+        <h1>Efetue Login</h1>
+  
+        <label> 
+            <span>Login</span>
+            <input type="input_text" class="input_text" name="login"  id="login">
+  
+        </label>
+  
+        <label>
+            <span>Senha</span>
+            <input type="password" class="input_text" name="senha" id="senha"/>
+        </label>
+			 <button type="submit" class="button" >Enviar</button>
+			 <input type="hidden" class="input_text" name="clinica" id="clinica" value="testando" />
+		</form> 
+
+		<form method="POST" action="form_cadastro_paciente.php">
+		<input type="hidden" class="input_text" name="clinica" id="clinica" value="testando" />
+		<p>É um paciente? <button type="submit">Cadastra-se!</button></a></p>
+		</form>
+</body>
+</html>

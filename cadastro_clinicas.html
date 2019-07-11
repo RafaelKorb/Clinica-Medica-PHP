@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/estilo_formulario.css"/>
+
+<style>
+body  {
+    background-image: url("fundo.jpg");
+    background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+}
+</style>	
+	
+
+</head> 
+<body> 
+
+
+
+
+<form method="POST" action="cadastro_clinicas.php">
+    <div class="box"> 
+        <h1>Criar Clinica</h1>
+  
+        <label> 
+            <span>Nome da Clinica</span>
+            <input type="input_text" class="input_text" name="nome_clinica"  id="nome_clinica">
+			 <button type="submit" name="criar_clinica">Criar</button>
+        </label>
+		<label>
+		<span>Nome da Atendente</span><br>
+			<input type="input_text" class="input_text" name="nome_atendente"  id="nome_atendente">
+		</label> 
+		<label> 
+			<span>Senha da Atendente</span>
+			<input type="password" class="input_text" name="senha_atendente"  id="senha_atendente">
+			<br>
+		</label> 	
+			<button type="submit" name="cadastrar_atendente">Cadastrar Atendente</button>
+			
+		</label>
+		</form> 
+		
+</body>
+</html>
